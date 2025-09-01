@@ -3,6 +3,6 @@ height = int(input("Введите высоту прямоугольника: ")
 width = int(input("Введите ширину прямоугольника: "))
 print("*" * width)                                     #рисуем верхнюю часть
 for i in range(height - 2):                            #рисуем середину
-    print("*" * width)
+    print("*" + " " * (width-2) + "*"
 print("*" * width)
 

@@ -9,6 +9,4 @@ for score in scores:                          #прописываем услов
     else:
         total_score += score     # добавляем балл к сумме
         print(f"Добавлен балл: {score}")
-else:
-    print("Все данные успешно обработаны.")
 print(f"\nИтоговая сумма баллов: {total_score}")  #выводим результат подсчетов
